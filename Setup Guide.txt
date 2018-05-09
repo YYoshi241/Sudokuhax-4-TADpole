@@ -3,19 +3,19 @@ How to Guide: TADpole DsiWare Game Injection
 1.You hopefully already did this step, downloading the zip for your region.
 2.Download the latest release of TADpole here: https://github.com/zoogie/TADpole
 3.Place your movable.sed and ctcert.bin into the /resources folder. 
-   (Note: You need to add the private key to this using ctcertifier.firm. LINK BELOW! You will need a    CFW 3DS to get this, not the  movable.sed though. YOU CAN FIND IT ON THE INTERNET BUT I WON'T TELL YOU WHERE!!! DON'T ASK, I WON'T GIVE YOU ONE EITHER!!!!)  
+(Note: You need to add the private key to this using ctcertifier.firm. LINK BELOW! You will need a CFW 3DS to get this, not the   movable.sed though. YOU CAN FIND IT ON THE INTERNET BUT I WON'T TELL YOU WHERE!!! DON'T ASK, I WON'T GIVE YOU ONE EITHER!!!!)  
 4.Place your DsiWare dump (XXXXXXXX.bin) into the /TADpole directory. 
-5.press SHIFT and Right click with your mouse then click ìopen command window hereî     
-6.type ìTADpole.exe XXXXXXXX.bin dî
-Alt. 6 type ìTADpole.py XXXXXXXX.bin dî
+5.press SHIFT and Right click with your mouse then click ‚Äúopen command window here‚Äù     
+6.type ‚ÄúTADpole.exe XXXXXXXX.bin d‚Äù
+Alt. 6 type ‚ÄúTADpole.py XXXXXXXX.bin d‚Äù
 Note: older versions have you type out dump and rebuild!
 7.copy srl.nds.inject and public.sav.inject to the /XXXXXXXX directory (same number as dsiware.bin)
-8. still in command window type ìTADpole.exe XXXXXXXX.bin rî
-Alt. 8 type ìTADpole.py XXXXXXXX.bin rî 
+8. still in command window type ‚ÄúTADpole.exe XXXXXXXX.bin r‚Äù
+Alt. 8 type ‚ÄúTADpole.py XXXXXXXX.bin r‚Äù 
 !remember the note after 6!
 9. copy the patched_XXXXXXXX.bin or XXXXXXXX.bin.patched (depends on the version) to 
  your /Nintendo DsiWare folder. Remove the patched prefix or suffix (again depends on the version)
- Note: if it adds .patched on the end windows will complain but accept the change (dont forget to also remove the ì.î!)
+ Note: if it adds .patched on the end windows will complain but accept the change (dont forget to also remove the ‚Äú.‚Äù!)
 10. Go to system settings and copy your title to the system memory, if it fails you did something wrong. Return to the home menu and try to run the game. If you get an error message about boot.nds you successfully completed this part of the CFW setup. 
 
 Finalizing
@@ -27,5 +27,9 @@ Other Links
 https://github.com/zoogie/seedminer
 
 https://github.com/zoogie/seedminer_toolbox/blob/master/ctcertifier/ctcertifier.firm
+
+NOTES
+
+Older versions of TADpole use "dump" and "rebuild" in place of "d" and "r"
 
 
