@@ -32,4 +32,7 @@ NOTES
 
 Older versions of TADpole use "dump" and "rebuild" in place of "d" and "r"
 
+IF your computer says when SHIFT Rclick "open PowerShell window" open that and type "cmd"
+it will put you into the command prompt.
+
 
